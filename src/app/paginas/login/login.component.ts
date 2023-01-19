@@ -16,7 +16,6 @@ export class LoginComponent {
   constructor(private session: SessionService){}
 
   onSubmit(){
-    // this.session.login(this.loginForm);
     sessionStorage.setItem('Token', '123456789');
   }
 
