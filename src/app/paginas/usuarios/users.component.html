@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Usuarios</h1>
+    <hr>
+    <button class="btn btn-secondary" (click)="mostrarUsers()">Mostrar Usuarios</button>
+
+    <ul class="product-container" *ngFor="let user of usuarios">
+        <li class="title">{{ user.name }}</li>
+    </ul>
+</div>
